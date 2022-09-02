@@ -19,7 +19,7 @@ Please make sure to read each project's translation instructions in their `info`
 ## I am a translator. How do I get started?
 Check this video demonstrating how to get started with Weblate:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-_q-_q-_q-_" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UoXQtX3h_Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## I am a developer. How do I get my project translated?
 Check the [Getting Started](/weblate/getting-started/) page for instructions on how to get your project translated on Foundry Hub Weblate.
