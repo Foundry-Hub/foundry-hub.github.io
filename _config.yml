@@ -21,7 +21,7 @@ avatar: /images/fhub_logo512.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: admin@foundryvtt-hub.com
-  github: https://github.com/orgs/Foundry-Hub/
+  github: orgs/Foundry-Hub/
 
 
 # Your website URL 

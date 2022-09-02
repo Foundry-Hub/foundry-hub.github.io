@@ -1,51 +1,59 @@
 ---
 layout: page
-title: Getting started with Reverie
-permalink: /getting-started/
+title: Manage your package translation on Foundry Hub Weblate
+permalink: /weblate/getting-started/
 ---
 
-### Step 1) Fork Reverie to your User Repository
+## Requirements
+To get your package translated on Foundry Hub Weblate, there are a few requirements you need to meet:
+- Your package must be free to use.
+- Your package must be hosted on a public GitHub or Gitlab repository.
+- The repository must contains at least one language file to use as a source for translation.
 
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
+## How does it work?
+When a package is added to Foundry Hub Weblate, it will automatically become available for translation to anyone with a registered account. You can start translating your package right away, or you can wait for someone else to start translating it.  
 
-Alternatively, you can use [Use this template](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
+24 hours after any translation is added or changed in your project, Weblate will create a Pull Request on your repository to update the translation.
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+Alternatively, you can manually force a translation Pull Request with your project admin access.
 
-### Step 2) Customize and view your site
+> If a new language is added to your project, Weblate will automatically create a new language file in your repository and update your manifest file.
 
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
 
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+## How to get your package translated on Foundry Hub Weblate
+Adding your package to Foundry Hub Weblate is easy and does not require any credentials or authentication on your part.
 
-### Step 3) Publish your first blog post
+Just send us an email at [admin@foundryvtt-hub.com](mailto:admin@foundryvtt-hub.com) with the following information:
 
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+- Package name:
+- Package repository URL:
+- Repository branch:
+- Weblate username:
+- Space or tabs for indentation:
+- How many space of tabs per indentation level:
+- What is the source language of your package:
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+Once we receive your request, we will review it and setup a Weblate project for you.
+The only configuration you need to do if you wish to automatically update your Weblate project when you change the source language is to add a Webhook to your repository.
 
-## Using Categories in Reverie
+### Automatically receive changes from GitHub
+To receive notifications on every push to a GitHub repository, add the Weblate Webhook in the repository settings `Webhooks` as shown on the image below:
 
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
+<details>
+  <summary>View screenshot</summary>
 
-For adding single category:
+![GitHub Webhook](../images/github_webhook.jpg)
+</details>
 
-```md
-categories: JavaScript
-```
+> The GitHub Webhook URL is: `https://weblate.foundryvtt-hub.com/hooks/github/`
 
-For adding multiple categories:
+### Automatically receive changes from Gitlab
+To receive notifications on every push to a Gitlab repository, add the Weblate Webhook in the repository settings `Webhooks` as shown on the image below:
 
-```md
-categories: [PHP, Laravel]
-```
+<details>
+  <summary>View screenshot</summary>
 
-The contegorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
+![Gitlab Webhook](../images/gitlab_webhook.jpg)
+</details>
 
-## RSS
-
-The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed).
-
-## Sitemap
-
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
+> The Gitlab Webhook URL is: `https://weblate.foundryvtt-hub.com/hooks/gitlab/`
