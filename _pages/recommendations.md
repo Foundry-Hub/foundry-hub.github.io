@@ -13,7 +13,7 @@ The Engage page is a great place to send users to if you want to get them involv
 Navigate to your project on Weblate and click the `Share` button, then click the `Engage page` button.  
 You can share this link with your users so they can join your translation community.  
 
-> Example: https://weblate.foundryvtt-hub.com/engage/dice-so-nice/
+> Example: [https://weblate.foundryvtt-hub.com/engage/dice-so-nice/](https://weblate.foundryvtt-hub.com/engage/dice-so-nice/)
 
 ### Badges and status widgets
 Weblate provides a number of widgets that can be used to show the status of your project.  
@@ -21,7 +21,7 @@ Head to your project on Weblate and click the `Share` button, then click the `St
 
 From there, you can choose which widgets you want to show and select the language you want your widgets in.
 
-> #### Examples
+#### Examples
 > Shield:  
 > [![Translation status](https://weblate.foundryvtt-hub.com/widgets/dice-so-nice/-/svg-badge.svg)](https://weblate.foundryvtt-hub.com/engage/dice-so-nice/)  
 > Widget:   
