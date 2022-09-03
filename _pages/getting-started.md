@@ -23,15 +23,11 @@ Alternatively, you can manually force a translation Pull Request with your proje
 ## How to get your package translated on Foundry Hub Weblate
 Adding your package to Foundry Hub Weblate is easy and does not require any credentials or authentication on your part.
 
-Just send us an email at [admin@foundryvtt-hub.com](mailto:admin@foundryvtt-hub.com) with the following information:
+Just fill this form and we will take care of the rest.  
 
-- Package name:
-- Package repository URL:
-- Repository branch:
-- Weblate username:
-- Space or tabs for indentation:
-- How many space of tabs per indentation level:
-- What is the source language of your package:
+[Request form to add a package on Weblate](https://forms.gle/CerZQVnUgCHA4WBZA)
+
+> If you have any questions or need help, feel free to join our [Discord server](https://discord.gg/UNN2yJNQrG) and ask for help in the `#weblate` channel.
 
 Once we receive your request, we will review it and setup a Weblate project for you.
 The only configuration you need to do if you wish to automatically update your Weblate project when you change the source language is to add a Webhook to your repository.
