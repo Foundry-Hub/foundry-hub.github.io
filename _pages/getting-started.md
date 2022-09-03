@@ -39,21 +39,13 @@ The only configuration you need to do if you wish to automatically update your W
 ### Automatically receive changes from GitHub
 To receive notifications on every push to a GitHub repository, add the Weblate Webhook in the repository settings `Webhooks` as shown on the image below:
 
-<details>
-  <summary>View screenshot</summary>
-
 ![GitHub Webhook](../images/github_webhook.jpg)
-</details>
 
-> The GitHub Webhook URL is: `https://weblate.foundryvtt-hub.com/hooks/github/`
+> GitHub Webhook URL: `https://weblate.foundryvtt-hub.com/hooks/github/`
 
 ### Automatically receive changes from Gitlab
 To receive notifications on every push to a Gitlab repository, add the Weblate Webhook in the repository settings `Webhooks` as shown on the image below:
 
-<details>
-  <summary>View screenshot</summary>
-
 ![Gitlab Webhook](../images/gitlab_webhook.jpg)
-</details>
 
-> The Gitlab Webhook URL is: `https://weblate.foundryvtt-hub.com/hooks/gitlab/`
+> Gitlab Webhook URL: `https://weblate.foundryvtt-hub.com/hooks/gitlab/`
